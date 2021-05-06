@@ -25,7 +25,8 @@ form {
     background: #fff;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     border-radius: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 1px 1px 15px 4px #0f0f0fc5;    
+    font-family: 'Roboto', sans-serif;
 }
 #container h1{
     width: 38%;
@@ -42,6 +43,7 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius:20px;
+    
 }
 
 /* Set a style for all buttons */
