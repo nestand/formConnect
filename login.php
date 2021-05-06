@@ -3,10 +3,10 @@
        <meta charset="utf-8">
         <!-- importer le fichier de style -->
         <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
-        <!--Google Fonts-->
+        <!--Google Fonts--><link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"> 
-    </head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">     
+</head>
     <body>
     <body>
 <video playsinline autoplay muted loop class="bgvideo" id="bgvideo">
