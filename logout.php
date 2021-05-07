@@ -1,28 +1,28 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <!-- importer le fichier de style -->
+        <!-- the CSS file -->
         <link rel="stylesheet" href="style.css" media="screen" type="text/css" />
     </head>
-    <body style='background:#fff;'>
+    <body style="color:#fff">
         <div id="content">
             
             <a href='principale.php?deconnexion=true'><span>Déconnexion</span></a>
             
-            <!-- tester si l'utilisateur est connecté -->
+            <!-- Test if the user is connected to propose logout -->
             <?php
                 session_start();
                 if(isset($_GET['deconnexion']))
                 { 
                    if($_GET['deconnexion']==true)
                    {  
-                      session_unset();
+                      session_destroy();
                       header("location:login.php");
                    }
                 }
                 else if($_SESSION['username'] !== ""){
                     $user = $_SESSION['username'];
-                    // afficher un message
+                    // Show hello message
                     echo "<br>Bonjour $user, vous êtes connectés";
                 }
             ?>
